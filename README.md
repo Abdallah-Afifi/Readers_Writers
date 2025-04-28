@@ -44,11 +44,11 @@ make run_all
 make benchmark
 ```
 
-Or run the demonstration script:
+Or run the unified demonstration script:
 
 ```bash
 # Run all demos in sequence
-./run_demo.sh
+./readers_writers_demo.sh
 ```
 
 You can also set the number of readers, writers, and operations:
@@ -65,7 +65,7 @@ READERS=15 WRITERS=5 OPERATIONS=3 ./readers_writers_fair
 We've created a single script that demonstrates all implementations:
 
 ```bash
-./run_demo.sh
+./readers_writers_demo.sh
 ```
 
 This script:
@@ -81,10 +81,10 @@ To compare performance across implementations:
 
 ```bash
 # Run with default settings
-./run_demo.sh --benchmark
+./readers_writers_demo.sh --benchmark
 
 # Run with custom settings
-READERS=20 WRITERS=10 OPERATIONS=5 ./run_demo.sh --benchmark
+READERS=20 WRITERS=10 OPERATIONS=5 ./readers_writers_demo.sh --benchmark
 ```
 
 The benchmark collects and displays:
@@ -115,9 +115,7 @@ All implementations focus on addressing key concurrency challenges:
 
 ## Documentation
 
-- **[Report.md](Report.md)**: Comprehensive project report with detailed analysis
-- **[Implementation_Comparison.md](Implementation_Comparison.md)**: Comparison of mutex and semaphore approaches
-- **[Approach_Comparison.md](Approach_Comparison.md)**: Comparison of all implementations
-- **[Synchronization_Analysis.md](Synchronization_Analysis.md)**: Analysis of synchronization challenges
+- **[Report.md](Report.md)**: Comprehensive project report with detailed analysis of all implementations
+- **[README.md](README.md)**: Installation and usage guide
 
 

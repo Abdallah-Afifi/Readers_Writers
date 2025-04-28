@@ -2,11 +2,11 @@
 
 ## Executive Summary
 
-This project implements and evaluates six different solutions to the classic Readers-Writers synchronization problem, each with different prioritization schemes and synchronization mechanisms. We compare their performance characteristics, synchronization mechanisms, and analyze their behavior under different workload patterns. An educational version with detailed comments is also provided to help understand the core concepts.
+This project implements and evaluates seven different solutions to the classic Readers-Writers synchronization problem, each with different prioritization schemes and synchronization mechanisms. We compare their performance characteristics, synchronization mechanisms, and analyze their behavior under different workload patterns. One implementation (the educational version) includes extensive comments to help understand the core concepts.
 
 ## 1. Introduction
 
-The Readers-Writers problem is a fundamental challenge in concurrent programming that addresses how to coordinate access to a shared resource between multiple reader threads (which only read the resource) and writer threads (which modify it). This report documents my comprehensive implementation of six different solutions, analyzing their synchronization mechanisms, performance characteristics, and tradeoffs.
+The Readers-Writers problem is a fundamental challenge in concurrent programming that addresses how to coordinate access to a shared resource between multiple reader threads (which only read the resource) and writer threads (which modify it). This report documents comprehensive implementations of seven different solutions, analyzing their synchronization mechanisms, performance characteristics, and tradeoffs.
 
 ### 1.1 Project Goals
 

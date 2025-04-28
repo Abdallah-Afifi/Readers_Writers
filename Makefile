@@ -72,11 +72,19 @@ run_educational: $(TARGET_EDUCATIONAL)
 
 # Run all implementations
 run_all: $(TARGETS)
-	./run_demo.sh
+	./readers_writers_demo.sh
 
 # Run benchmark mode
 benchmark: $(TARGETS)
-	./benchmark.sh
+	./readers_writers_demo.sh --benchmark
+
+# Quick demonstration mode
+quick: $(TARGETS)
+	./readers_writers_demo.sh --quick
+
+# Verbose mode
+verbose: $(TARGETS)
+	./readers_writers_demo.sh --verbose
 
 # Custom run configurations
 run_custom_small: $(TARGETS)
