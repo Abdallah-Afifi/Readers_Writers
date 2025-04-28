@@ -6,7 +6,7 @@ This project implements and evaluates six different solutions to the classic Rea
 
 ## 1. Introduction
 
-The Readers-Writers problem is a fundamental challenge in concurrent programming that addresses how to coordinate access to a shared resource between multiple reader threads (which only read the resource) and writer threads (which modify it). This report documents our comprehensive implementation of six different solutions, analyzing their synchronization mechanisms, performance characteristics, and tradeoffs.
+The Readers-Writers problem is a fundamental challenge in concurrent programming that addresses how to coordinate access to a shared resource between multiple reader threads (which only read the resource) and writer threads (which modify it). This report documents my comprehensive implementation of six different solutions, analyzing their synchronization mechanisms, performance characteristics, and tradeoffs.
 
 ### 1.1 Project Goals
 
@@ -27,7 +27,7 @@ The Readers-Writers problem involves the following constraints:
 
 ## 3. Methodology
 
-Our approach to solving the Readers-Writers problem involved:
+my approach to solving the Readers-Writers problem involved:
 1. Analyzing the different prioritization schemes and their impacts
 2. Implementing solutions using different synchronization primitives
 3. Writing comprehensive test and benchmark programs
@@ -146,7 +146,7 @@ This implementation encapsulates the shared data and synchronization methods in 
 
 ### 5.1 Test Infrastructure
 
-Our testing approach involved:
+My testing approach involved:
 - Running each implementation with varying numbers of readers and writers
 - Collecting statistics on throughput, wait times, and operation counts
 - Testing with different workload patterns (read-heavy, write-heavy, balanced)
@@ -164,7 +164,7 @@ We measured the following metrics:
 
 ## 6. Performance Analysis
 
-Our implementations were tested with different workload patterns to evaluate their performance:
+My implementations were tested with different workload patterns to evaluate their performance:
 
 ### 6.1 Read-Heavy Workloads (90% reads, 10% writes)
 
@@ -301,7 +301,7 @@ The project includes several documentation files:
 
 ## 9. Recommendations for Implementation Selection
 
-Based on our analysis, we recommend:
+Based on my analysis, we recommend:
 
 ### 9.1 For Read-Heavy Workloads
 1. **Best Choice**: Readers-Priority implementation
@@ -361,7 +361,7 @@ The Readers-Writers problem demonstrates fundamental trade-offs in concurrent pr
 - **Complexity vs. Performance**: More sophisticated approaches (like Fair) provide better guarantees but at the cost of higher complexity
 - **Generality vs. Optimization**: General solutions (like std::shared_mutex) are simpler to use but may not be optimal for specific workloads
 
-Our implementations provide a comprehensive exploration of these trade-offs, showing how different synchronization primitives and prioritization strategies affect the behavior and performance of concurrent systems.
+My implementations provide a comprehensive exploration of these trade-offs, showing how different synchronization primitives and prioritization strategies affect the behavior and performance of concurrent systems.
 
 This project demonstrates the richness of concurrent programming solutions and the importance of choosing synchronization strategies based on workload characteristics and system requirements.
 
