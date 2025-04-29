@@ -155,7 +155,7 @@ My testing approach involved:
 
 ### 5.2 Key Metrics
 
-We measured the following metrics:
+I measured the following metrics:
 - **Reader wait time**: Average time readers wait for access
 - **Writer wait time**: Average time writers wait for access
 - **Total throughput**: Total completed operations per unit time
