@@ -272,11 +272,11 @@ struct Statistics {
 
 ## 8. Educational Materials
 
-For educational purposes, we've created several resources to help understand the Readers-Writers problem:
+For educational purposes, I've created several resources to help understand the Readers-Writers problem:
 
 ### 8.1 Educational Implementation
 
-We've created an extensively commented implementation (`readers_writers_educational.cpp`) that explains:
+I've created an extensively commented implementation (`readers_writers_educational.cpp`) that explains:
 - The synchronization mechanisms in detail
 - The rationale behind design decisions
 - Potential pitfalls and how they're avoided
