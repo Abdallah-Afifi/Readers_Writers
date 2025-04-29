@@ -27,7 +27,7 @@ The Readers-Writers problem involves the following constraints:
 
 ## 3. Methodology
 
-my approach to solving the Readers-Writers problem involved:
+My approach to solving the Readers-Writers problem involved:
 1. Analyzing the different prioritization schemes and their impacts
 2. Implementing solutions using different synchronization primitives
 3. Writing comprehensive test and benchmark programs
@@ -46,7 +46,7 @@ The project was developed in:
 
 ## 4. Implementation Approaches
 
-We have implemented six different solutions to the Readers-Writers problem, each using different synchronization primitives and prioritization strategies:
+I have implemented six different solutions to the Readers-Writers problem, each using different synchronization primitives and prioritization strategies:
 
 ### 1. Writers-Priority Implementation
 
