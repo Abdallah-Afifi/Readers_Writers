@@ -283,25 +283,15 @@ We've created an extensively commented implementation (`readers_writers_educatio
 
 This file serves as a learning resource for those new to concurrent programming concepts.
 
-### 8.2 Visual Diagrams
-
-Visual diagrams have been created to illustrate:
-- The architecture of each implementation
-- Thread flow and interaction patterns
-- Comparative analysis of approaches
-
 ### 8.3 Documentation Structure
 
 The project includes several documentation files:
 - **Report.md** (this file): Comprehensive project report
 - **README.md**: Installation and usage guide
-- **Approach_Comparison.md**: Detailed comparison of implementations
-- **Synchronization_Analysis.md**: Analysis of synchronization challenges
-- **Implementation_Comparison.md**: Focus on mutex vs semaphore approaches
 
 ## 9. Recommendations for Implementation Selection
 
-Based on my analysis, we recommend:
+Based on my analysis, I recommend:
 
 ### 9.1 For Read-Heavy Workloads
 1. **Best Choice**: Readers-Priority implementation
