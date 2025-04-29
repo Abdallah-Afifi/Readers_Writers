@@ -62,7 +62,7 @@ READERS=15 WRITERS=5 OPERATIONS=3 ./readers_writers_fair
 
 ### Comprehensive Demo Script
 
-We've created a single script that demonstrates all implementations:
+I've created a single script that demonstrates all implementations:
 
 ```bash
 ./readers_writers_demo.sh
